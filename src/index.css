@@ -103,9 +103,7 @@ nav{
   
   
 }
-.user svg{
-  
-}
+
 .user:hover{
   background: #fff3;
  border-radius: 4px;
@@ -113,9 +111,6 @@ nav{
 }
 .cart{
   fill: aqua;
-}
-.user{
-
 }
 .user-img{
   width: 20px;
