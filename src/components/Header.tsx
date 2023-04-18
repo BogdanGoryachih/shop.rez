@@ -54,7 +54,7 @@ const Header =() =>{
                                                     <form className='form-client'>
                                                         <div className="form-row">
                                                             <label className='label-row'>Ел. пошта або телефон</label>
-                                                            <input type="email" id="auth-email" className='input-row' />
+                                                            <input type="email pohone " id="auth-email" className='input-row' />
                                                         </div>
                                                         <div className="form-pass">
                                                             <label className='label-row'>Пароль</label>
@@ -85,21 +85,21 @@ const Header =() =>{
                                                                     <form className='form-client'>
                                                                         <div className="form-row">
                                                                             <label className='label-row'>Имя</label>
-                                                                            <input type="email" id="auth-email" className='input-row' />
+                                                                            <input type="text" id="text" className='input-row' />
                                                                         </div>
                                                                         <div className="form-row">
                                                                             <label className='label-row'>Фамилия</label>
-                                                                            <input type="email" id="auth-email" className='input-row' />
+                                                                            <input type="text" id="text" className='input-row' />
                                                                         </div>
                                                                         <div className="form-row">
                                                                             <label className='label-row'>Номер телефона</label>
-                                                                            <input type="phone"  id="auth-email" className='input-row'>
+                                                                            <input type="text"  id="text" className='input-row'>
                                                                                 
                                                                             </input>
                                                                         </div>
                                                                         <div className="form-row">
                                                                             <label className='label-row'>Номер телефона</label>
-                                                                            <input type="email" id="auth-email" className='input-row' />
+                                                                            <input type="phone" id="text" className='input-row' />
                                                                         </div>
                                                                         <div className="form-pass">
                                                                             <label className='label-row'>Эл. почта</label>

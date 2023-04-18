@@ -30,16 +30,23 @@ export default () => {
     setCurentIdex(newIndex);
   }
   return (
-    <div className="simpel-slider">
-     
-      <div style={{backgroundImage: ` url(${slides[currentIndex].url})`}} className="slider-img">
-          <BsChevronCompactLeft onClick={preslide} className="hidden group-hover:block  menu-slider-left"  size={35}></BsChevronCompactLeft>
-          <BsChevronCompactRight onClick={nexslide} className="hidden group-hover:block menu-slider-right" size={35}></BsChevronCompactRight>
-        
-        </div>
-      
-        
-        
+    <div className="swiper-slider-div">
+    <main className='content-slider'>
+      <div className="">
+        <h1>1232</h1>
+      </div>
+    </main>
     </div>
   );
 };
+{/* <div className="simpel-slider">
+     
+     <div style={{backgroundImage: ` url(${slides[currentIndex].url})`}} className="slider-img">
+         <BsChevronCompactLeft onClick={preslide} className="hidden group-hover:block  menu-slider-left"  size={35}></BsChevronCompactLeft>
+         <BsChevronCompactRight onClick={nexslide} className="hidden group-hover:block menu-slider-right" size={35}></BsChevronCompactRight>
+       
+       </div>
+     
+       
+       
+   </div> */}
